@@ -13,5 +13,3 @@ CREATE TRIGGER log_delete_activity
 	AFTER DELETE ON activity
 	FOR EACH ROW
 	EXECUTE PROCEDURE log_delete_activity(); 
-
-
